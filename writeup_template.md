@@ -47,7 +47,7 @@ The code for this step is contained in the third code cell of the IPython notebo
 I started by reading in all the `vehicle` and `non-vehicle` images.  
 I then explored different color spaces and different `skimage.hog()` parameters (`orientations`, `pixels_per_cell`, and `cells_per_block`).  I grabbed random images from each of the two classes and displayed them to get a feel for what the `skimage.hog()` output looks like.
 
-Here is an example using the `YCrCb` color space and HOG parameters of `orientations=8`, `pixels_per_cell=(8, 8)` and `cells_per_block=(2, 2)`:
+Here is an example using the `YCrCb` color space and HOG parameters of `orientations=12`, `pixels_per_cell=(8, 8)` and `cells_per_block=(2, 2)`:
 Here is an example of one of each of the `vehicle` and `non-vehicle` classes:
 ![alt text][image1]
 ![alt text][image2]
